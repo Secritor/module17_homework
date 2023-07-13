@@ -1,0 +1,23 @@
+{
+  "name": "learn-js",
+  "version": "1.0.0",
+  "description": "solved tasks from skillfactory",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.1.0"
+  }
+}
