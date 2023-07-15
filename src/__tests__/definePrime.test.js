@@ -1,30 +1,30 @@
 import { definePrime } from "../definePrime.js";
 
-xdescribe("tests for definePrime function", () => {
-  const simple = 17;
-  const complex = 18;
+// xdescribe("tests for definePrime function", () => {
+//   const simple = 17;
+//   const complex = 18;
 
-  it("should operate correctly with simple number", () => {
-    expect(definePrime(17)).toBe(`Число ${simple} - простое число`);
-  }),
-    it("should operate correctly with complex number", () => {
-      expect(definePrime(18)).toBe(`Число ${complex} - составное число`);
-    }),
-    it("should operate correctly with invalid number", () => {
-      expect(definePrime(1001)).toBe(`Данные неверны`);
-    });
-});
+//   it("should operate correctly with simple number", () => {
+//     expect(definePrime(17)).toBe(`Число ${simple} - простое число`);
+//   }),
+//     it("should operate correctly with complex number", () => {
+//       expect(definePrime(18)).toBe(`Число ${complex} - составное число`);
+//     }),
+//     it("should operate correctly with invalid number", () => {
+//       expect(definePrime(1001)).toBe(`Данные неверны`);
+//     });
+// });
 
-describe("tests for definePrime function", () => {
-  const simple = 17;
-  const complex = 18;
+// xdescribe("tests for definePrime function", () => {
+//   const simple = 17;
+//   const complex = 18;
 
-  it("should operate correctly with simple, complex, invalid number", () => {
-    expect(definePrime(17)).toBe(`Число ${simple} - простое число`);
-    expect(definePrime(18)).toBe(`Число ${complex} - составное число`);
-    expect(definePrime(1001)).toBe(`Данные неверны`);
-  });
-});
+//   it("should operate correctly with simple, complex, invalid number", () => {
+//     expect(definePrime(17)).toBe(`Число ${simple} - простое число`);
+//     expect(definePrime(18)).toBe(`Число ${complex} - составное число`);
+//     expect(definePrime(1001)).toBe(`Данные неверны`);
+//   });
+// });
 
 // xdescribe("tests for definePrime function", () => {
 //   const simple = 17;
